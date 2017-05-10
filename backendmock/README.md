@@ -9,7 +9,8 @@ The port can be specified by editing `json-server.json`:
 ```
 {
   "port": 3000
-}```
+}
+```
 
 ## Usage Examples
 
@@ -26,14 +27,16 @@ The port can be specified by editing `json-server.json`:
     "handle": "@onemorebug",
     "name": "Oscar Serna"
   }
-]```
+]
+```
 [http://localhost:3000/customers/2]() will output:
 ```
 {
   "id": 2,
   "handle": "@onemorebug",
   "name": "Oscar Serna"
-}```
+}
+```
 [http://localhost:3000/customers/1/accounts]() will output:
 ```
 [
@@ -55,7 +58,8 @@ The port can be specified by editing `json-server.json`:
     "balance": "1,746.00 AUD",
     "customerId": 1
   }
-]```
+]
+```
 
 It supports filters: [http://localhost:3000/customers/1/accounts?name=current]() will output:
 ```
@@ -66,7 +70,8 @@ It supports filters: [http://localhost:3000/customers/1/accounts?name=current]()
     "balance": "5,234.56 AUD",
     "customerId": 1
   }
-]```
+]
+```
 
 **The accounts are queried separatedly**.
 
@@ -109,7 +114,8 @@ It supports filters: [http://localhost:3000/customers/1/accounts?name=current]()
     "balance": "14,560.22 AUD",
     "customerId": 2
   }
-]```
+]
+```
 [http://localhost:3000/accounts/5]() will output:
 ```
 {
@@ -117,4 +123,5 @@ It supports filters: [http://localhost:3000/customers/1/accounts?name=current]()
   "name": "savING",
   "balance": "8,360.22 AUD",
   "customerId": 2
-}```
+}
+```
