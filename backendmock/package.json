@@ -1,0 +1,23 @@
+{
+  "name": "backendmock",
+  "version": "1.0.0",
+  "description": "A backend mock for a Super Secret Thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oserna/twitterthing.git"
+  },
+  "keywords": [
+    "twitter",
+    "thing"
+  ],
+  "author": "Oscar Serna & Gabriel Viso",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/oserna/twitterthing/issues"
+  },
+  "homepage": "https://github.com/oserna/twitterthing"
+}
