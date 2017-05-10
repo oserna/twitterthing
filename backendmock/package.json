@@ -4,6 +4,7 @@
   "description": "A backend mock for a Super Secret Thing",
   "main": "index.js",
   "scripts": {
+    "start": "json-server --watch db.json",
     "test": "npm test"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/oserna/twitterthing/issues"
   },
-  "homepage": "https://github.com/oserna/twitterthing"
+  "homepage": "https://github.com/oserna/twitterthing",
+  "dependencies": {
+    "json-server": "0.10.0"
+  }
 }
